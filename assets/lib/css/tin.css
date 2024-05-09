@@ -1,0 +1,72 @@
+.tin {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 950px;
+}
+.tin-left {
+    flex: 2;
+}
+.tin-right {
+    flex: 3;
+    padding: 10px;
+}
+.tin-image {
+    width: 100%;
+    height: auto;
+}
+.tin-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tin-info {
+    display: flex;
+    margin-bottom: 10px;
+}
+.tin-views,
+.tin-likes,
+.tin-date {
+    font-size: 14px;
+    margin-right: 10px;
+    align-items: center;
+}
+.tin-description {
+    font-size: 14px;
+}
+.tinmini {
+display: flex;
+border: 1px solid #ccc;
+margin: 10px;
+width: 320px;
+}
+.tinmini-left {
+flex: 2;
+}
+.tinmini-right {
+flex: 3;
+padding: 10px;
+}
+.tinmini-image {
+width: 56px;
+height: 74px;
+object-fit: cover;
+}
+.tinmini-title {
+font-size: 14px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+.tinmini-info {
+display: flex;
+justify-content: space-between;
+margin-bottom: 5px;
+}
+.tinmini-views,
+.tinmini-likes,
+.tinmini-date {
+font-size: 8px;
+}
+.tinmini-description {
+font-size: 8px;
+}

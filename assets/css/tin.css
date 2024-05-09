@@ -1,0 +1,155 @@
+.tin {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 20px;
+    width: 92%;
+}
+
+.tin-left {
+    flex: 2;
+}
+
+.room {
+    width: 200.2px;
+    height: 200.2px;
+    margin-right: 3px;
+    overflow: hidden;
+}
+
+.tin-right {
+    flex: 4;
+    padding: 10px;
+}
+
+.tin-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tin-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.tin-title:hover {
+    color: red;
+}
+
+.tin-info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tin-views,
+.tin-likes,
+.tin-date {
+    font-size: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tin-description {
+    font-size: 14px;
+}
+
+.tinmini {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px;
+    margin-top: 5px;
+    width: 95%;
+}
+
+.tinmini-left {
+    flex: 2;
+}
+
+.tinmini-right {
+    flex: 3;
+    padding: 10px;
+}
+
+.tinmini-image {
+    object-fit: cover;
+}
+
+.tinmini-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.tinmini-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.tinmini-infos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.tinmini-views,
+.tinmini-likes,
+.tinmini-date {
+    font-size: 8px;
+}
+
+.tinmini-viewss,
+.tinmini-likess,
+.tinmini-dates {
+    font-size: 5px;
+}
+
+.tinmini-description {
+    font-size: 8px;
+    background-color: blue;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #007BFF;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #007BFF;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+
+.pagination a.active {
+    background-color: #007BFF;
+    color: white;
+}
+
+.timkiem {
+    border: solid 1px black;
+    margin-top: 3px;
+}
+
+.timkiem:hover {
+    transform: scale(1.05);
+}
+
+.xemct:hover {
+    transform: scale(1.1);
+    background-color: #007BFF;
+    color: black;
+
+}
+
+.khung {
+    border: solid 1px black;
+    margin-bottom: 10px;
+}
